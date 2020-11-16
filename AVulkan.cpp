@@ -929,7 +929,7 @@ int main(int argc, char* args[])
 
 			VkSwapchainKHR swapChains[] = { vkSwapchain };
 			presentInfo.swapchainCount = 1;
-			presentInfo.pSwapchains = swapChains;-sd
+			presentInfo.pSwapchains = swapChains;
 
 			presentInfo.pImageIndices = &imageIndex;
 
